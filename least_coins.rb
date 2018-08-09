@@ -10,10 +10,10 @@ def least_coins(cents)
   cents_left3%1 = cents_left4
   end
 least_coins_hash = {}
-least_coins_hash ["quarters"] = amount_of_quarters
-least_coins_hash["dimes"]= amount_of_dimes
-least_coins_hash ["nickels"] = amount_of_nickels
-least_coins_hash ["pennies"] = amount_of_pennies
+least_coins_hash [:quarters] = "amount_of_quarters"
+least_coins_hash[:dimes]= "amount_of_dimes"
+least_coins_hash [:nickels] = "amount_of_nickels"
+least_coins_hash [:pennies] = "amount_of_pennies"
 return least_coins_hash
 end 
   
